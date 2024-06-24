@@ -1,8 +1,8 @@
 # Monitoreo de página web
 
 La idea es tener un monitoreo de mi página [clases.cariet.xyz](clases.cariet.xyz).
-Cada cierto tiempo que defino en el crontab revisa si la página esta activa y registra en el archivo `registros.log`.
-Además, cuando no está activa manda un mensaje por telegram para alertarme. 
+Cada cierto tiempo que defino en el crontab revisa si la página esta activa, registra en el archivo `registros.log` y envía la información al chat `ID_DEL_CHAT_DE_REGISTRO`. Este chat debe estar silenciado para no atudirse con los mensajes constantes. En particular sirve para saber que el monitor está actívo.
+Además, cuando no está activa manda un mensaje por telegram para alertar al chat `ID_DEL_CHAT`. 
 
 ## Configuración
 
